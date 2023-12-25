@@ -11,6 +11,5 @@ pytz==2023.3.post1
 scandir==1.10.0
 singledispatch==3.7.0
 six==1.16.0
-typing==3.10.0.0
 virtualenv==20.15.1
 zipp==1.2.0
