@@ -13,7 +13,7 @@ def process_ledger(ledger_data):
             unique_transactions[activity_id] = transaction
 
     # Sort transactions by date
-    sorted_transactions = sorted(list(unique_transactions.values()), 
+    sorted_transactions = sorted(unique_transactions.values(), 
                                  key=lambda x: datetime.strptime(x['date'][:19], "%Y-%m-%dT%H:%M:%S"))
 
     current_balance = 0
