@@ -26,7 +26,7 @@ SECRET_KEY = '$63&tlr59vk108rsj6&nwj=g45j(%e1$ioxx74#0@-+bwdqzae'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['investment-ledger.onrender.com']
 
 
 # Application definition
